@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Future of Earthen Construction Workshop 
+tagline:          'FoC 2023'
+baseurl: "/workshop_digital_earth/" # the subpath of your site, e.g. /blog
+url: "https://le-ar-n.github.io/workshop_digital_earth" # the base hostname & protocol for your site, e.g. http://example.com
+
+paginate:         5
+
+# Custom vars
+#version:          2.1.0
+
+github:
+  repo:           https://github.com/augmentedfabricationlab/workshop_digital_earth
+
+plugins:
+  - jekyll-feed
+
+collections:
+  sessions:
+    output: true
